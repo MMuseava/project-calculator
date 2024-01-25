@@ -1,0 +1,56 @@
+/* /* normCalculator.style.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.display {
+  grid-column: span 4;
+  margin-bottom: 10px;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.custom-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  opacity: 0.8;
+}
+input{
+   font-size: 1.7rem;
+  text-align: end; 
+  background: hsl(202, 11%, 29%); 
+  color: hsl(255, 100%, 100%); 
+  padding-block-start: 0.50rem; 
+  padding-block-end: 0.50rem; 
+  padding-inline-end: 0.75rem;
+}
