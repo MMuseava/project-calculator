@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 import "./normCalculator.style.css"
 import CustomButton from '../customButton/CustomButton'
 
@@ -32,7 +33,7 @@ const NormCalculator = () => {
 
   return (
       <div className='container'>
-          
+         
           <div className='calculator'>
               <form action=''>
                   <div className='display'>
